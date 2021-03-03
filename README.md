@@ -1,4 +1,4 @@
-# interfacing 4x3 keypad with pic16F84A on 7segment using decoder 7448
+# interfacing 4x3 keypad with Microcontroller pic16F84A on 7segment using decoder 7448
 
 whtat does it do?:
 
