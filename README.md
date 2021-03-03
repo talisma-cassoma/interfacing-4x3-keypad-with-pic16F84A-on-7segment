@@ -48,3 +48,26 @@ void main()
   }
 }
 ```
+
+## How keypad works & How to scan them?
+
+The working principle is very simple. Pressing a button shorts one of the row lines to one of the column lines, allowing current to flow between them. For example, when key ‘4’ is pressed, column 1 and row 2 are shorted.
+<p align="center">
+<img src="https://lastminuteengineers.com/wp-content/uploads/arduino/4x3-Membrane-Keypad-Working.gif">
+</p>
+4x3 Membrane Keypad Working
+A microcontroller can scan these lines for a button-pressed state. To do this, it follows below procedure.
+
+Microcontroller sets all the column and row lines to input.
+Then, it picks a row and sets it HIGH.
+After that, it checks the column lines one at a time.
+If the column connection stays LOW, the button on the row has not been pressed.
+If it goes HIGH, the microcontroller knows which row was set HIGH, and which column was detected HIGH when checked.
+Finally, it knows which button was pressed that corresponds to detected row & column.
+this excerpt was taked from https://lastminuteengineers.com/arduino-keypad-tutorial/
+
+## keypad algorithm
+:::with for loop
+
+
+:::with timer interruptions 
