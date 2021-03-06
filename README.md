@@ -67,7 +67,7 @@ Finally, it knows which button was pressed that corresponds to detected row & co
 this excerpt was taked from https://lastminuteengineers.com/arduino-keypad-tutorial/
 
 ## keypad algorithm
-:::with for loop
+::with for loop
 
 
-:::with timer interruptions 
+::with timer interruptions 
