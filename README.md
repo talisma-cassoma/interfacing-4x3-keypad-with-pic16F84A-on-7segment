@@ -14,7 +14,8 @@ void main()
        PORTA=0;
        PORTB=0;
 
-       //o registrador TRIS é aquele que determina se um pino/porta é entrada ou saida
+       //o registrador TRIS é aquele que determina se um 
+       //pino/porta é entrada ou saida
        TRISA=0x00;   //saida
        TRISB=0xf0;  //entrada
 
@@ -43,7 +44,7 @@ void main()
 
       if(i!=99)
      {
-              PORTA=i;
+       PORTA=i;
      }
   }
 }
